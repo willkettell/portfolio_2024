@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">About</a></li>
+                <li><a href="#section3">Projects</a></li>
+                <li><a href="#section4">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <section id="section1" class="section welcome-section">
+                <div class="welcome-container">
+                    <div class="welcome-content">
+                        <h1>Welcome! I'm Will Kettell</h1>
+                        <h2>Creative Developer & Designer</h2>
+                        <p>Turning ideas into beautiful, interactive digital experiences. I specialize in web development and UI/UX design. Let’s build something amazing together!</p>
+                        <a href="#section3" class="explore-button">Explore My Work</a>
+                    </div>
+                    <div class="welcome-image">
+                        <img src="profile.jpg" alt="Profile Image">
+                    </div>
+                </div>
+            </section>
+
+            <section id="section2" class="section about-section">
+                <div class="about-container">
+                    <div class="about-header">
+                        <h1>About Me</h1>
+                    </div>
+                    <div class="about-content">
+                        <div class="intro">
+                            <h2>Hello! I'm Will Kettell</h2>
+                            <p>I am a New Media Designer, passionate about creating engaging digital experiences. With a
+                                background in New Media Design, I enjoy combining creativity and technology to bring
+                                ideas to life.</p>
+                        </div>
+                        <div class="experience">
+                            <h3>Professional Background</h3>
+                            <p>I am a student of New Media at RIT, and am currently exploring opportunities in
+                                web development and UIX. During my studies.</p>
+                        </div>
+                        <div class="skills">
+                            <h3>Skills</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <h4>HTML & CSS</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 90%;"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <h4>JavaScript</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 75%;"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <h4>Adobe Suite</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 85%;"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <h4>Skill</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 70%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="section3" class="section">
+                <div class="section-header">
+                    <h1>My Projects</h1>
+                </div>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="img/image1.png" alt="Project 1">
+                        <div class="overlay">
+                            <div class="text">Mobile ID App</div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/images2.png" alt="Project 2">
+                        <div class="overlay">
+                            <div class="text">Natural Park Exploration Website</div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image3.jpg" alt="Project 3">
+                        <div class="overlay">
+                            <div class="text">Project 3</div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image4.jpg" alt="Project 4">
+                        <div class="overlay">
+                            <div class="text">Project 4</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section4" class="section contact-section">
+                <div class="contact-container">
+                    <div class="contact-header">
+                        <h1>Get In Touch</h1>
+                        <p>I'd love to hear from you! Whether you have a question or just want to connect, feel free to
+                            reach out.</p>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
